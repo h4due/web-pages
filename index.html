@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"
+        <meta name="description" content="страница моего блога">
+        <meta name="keywords" content="блог">
+        <title>Страница моего блога</title>
+    </head>
+    <body>
+        <form action="action_page.php" style="border:1px solid #ccc">
+            <div class="container">
+                <h1>Форма регистрации</h1>
+                <p>Пожалуйста, заполните форму, чтобы создать учебную запись.</p>
+                <hr>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Введите почту" name="email" required>
+
+                <label for="psw"><b>Пароль</b></label>
+                <input type="password" placeholder="Введите пароль" name="psw" required>
+
+                <label for="psw-repeat"><b>Повторите пароль</b></label>
+                <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+
+                <label>
+                    <input type="chechbox" cheched="cheched" name="remember" style="margin-bottom: 15px;"> 
+                Запомнить меня
+                <!-- Кнопка запомнить меня-->
+                </label>
+            </div>
+        </form>
+    </body>
+</html>
