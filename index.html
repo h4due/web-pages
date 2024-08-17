@@ -5,6 +5,7 @@
         <meta name="description" content="страница моего блога">
         <meta name="keywords" content="блог">
         <title>Страница моего блога</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <form action="action_page.php" style="border:1px solid #ccc">
@@ -24,9 +25,12 @@
 
                 <label>
                     <input type="chechbox" cheched="cheched" name="remember" style="margin-bottom: 15px;"> 
-                Запомнить меня
+                Запомнить меня</label>
                 <!-- Кнопка запомнить меня-->
-                </label>
+                 <div class="clearfix">
+                    <button type="button" class="cancelbtn">Отменить</button>
+                    <button type="submit" class="signupbtn">Регистрация</button>
+                 </div>
             </div>
         </form>
     </body>
